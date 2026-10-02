@@ -7,8 +7,7 @@ public class BuggyProgram {
         }
         if (score >= 80) {
             return "Meets";
-        }
-        else {
+        } else {
             return "Does Not Meet";
         }
     }
