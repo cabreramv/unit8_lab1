@@ -30,9 +30,14 @@ public class BuggyProgram {
         int sum = 0;
 
         for (int i = start; i <= end; i++) {
-            sum += i;
+            sum = sum + i;
         }
-
+        if (start > end) {
+            int i;
+            for (i = start; i >= end; i--) {
+                sum = sum + i;
+            }
+        }
         return sum;
     }
 }
