@@ -11,7 +11,7 @@ https://github.com/cabreramv/unit8_lab1.git
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+- 
 
 ## What was the purpose of this commit?
 -
@@ -21,32 +21,34 @@ https://github.com/cabreramv/unit8_lab1.git
 # Commit 2: Task 1 (getGrade)
 
 ## Which tests in Task1Test were failing before your fix?
--
+- the outputs were wrong
 
 ## What was the issue in the code?
--
+- score 90 was assigned meets and score 80 was assigned exceeds.
+- it also didnt include 90 and 80.
 
 ## What change did you make to fix it?
--
+- Swapped meets and exceeds. Added = to the >.
 
 ## How did the tests help guide your fix?
--
+- it showed me what inputs it was using to test the method.
 
 ---
 
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
--
+- Not sure
 
 ## What was the issue in the code?
--
+- The array was out of bounds.
 
 ## What change did you make to fix it?
--
+- initialized some to 0 instead of 1. 
+- changed i <= values.length to i < values.length
 
 ## How did the tests help guide your fix?
--
+- It helped guide me to the issue
 
 ---
 
